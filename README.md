@@ -18,7 +18,10 @@ hc05
 giao tiếp giữa esp32 và stm32 
 các ngoại vi trên 2 hàng header  
 
-### Dự đoán kết quả test các khối chưa test : hoạt động bình thường cả hc05 , stm32 <-> esp và ngoại vi trên 2 hàng header
-
+### Dự đoán kết quả test các khối chưa test : 
+hoạt động bình thường cả hc05 , stm32 <-> esp và ngoại vi trên 2 hàng header
+button 1 có thể bị nhiễu tương tự button 2 và 3 
 
 # Video :
+## Nhiễu button 2 và 3
+https://github.com/user-attachments/assets/6cc48980-1958-4925-992b-9ae5cc76ae09
