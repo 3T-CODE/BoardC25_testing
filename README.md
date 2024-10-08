@@ -2,7 +2,6 @@
 test board C25
 ## Tình hình test board
 LCD và TFT hoạt động ổn định ,
-Button 2 và 3 có hiện tượng nhiễu nặng  
 2 led test của stm32 và esp32 hoạt động bình thường 
 các nút reset , boot hoạt động bình thường 
 Relay không kích được - hoặc do em không biết cách kích 
@@ -10,8 +9,11 @@ Ds3231 hoạt động bình thường (trong trường hợp không gắn mpu605
 uart1 hoạt động bình thường .
 
 ### Lỗi đáng chú ý :
-Button 2 và 3 bị nhiễu nặng - không rõ lý do.
 Relay không kích được - có thể do bản thân người thử nghiệm không biết kích .
+MPU6050 và Ds3231 trùng địa chỉ 
+
+### Các lỗi khác :
+Lỗi button2 , 3 , 1 không có trở kéo lên hoặc xuống mặc định - cần phải đặt trở kéo lên , kéo xuống bằng code arduino ide - hoặc ioc file trên stm32
 
 ### Các khối chưa test : 
 hc05 
