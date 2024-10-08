@@ -19,3 +19,6 @@ giao tiếp giữa esp32 và stm32
 các ngoại vi trên 2 hàng header  
 
 ### Dự đoán kết quả test các khối chưa test : hoạt động bình thường cả hc05 , stm32 <-> esp và ngoại vi trên 2 hàng header
+
+
+# Video :
